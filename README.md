@@ -15,3 +15,10 @@ OpenTelemetry is currently made up of several main components:
 - **Language-specific API & SDK implementations** It lets you use the OpenTelemetry API to generate telemetry data with your language of choice and export that data to a preferred backend.
 - **K8s operator:** It is an implementation of a Kubernetes Operator. The operator manages the OpenTelemetry Collector and auto-instrumentation of the workloads using OpenTelemetry.
 - **Function as a Service assets:** Platforms that enable the development and execution of cloud-based programs. OpenTelemetry's community assets allow you to instrument and gain observability into the features, functions and applications you develop on FaaS platforms.
+
+## Instrumentation
+
+Instrumentation is essential for making a system observable, involving the emission of traces, metrics, and logs from its components. OpenTelemetry offers two primary methods for instrumentation:
+
+- **Code-based solutions:** These involve using official APIs and SDKs for various programming languages. They enable deep insight into the application, allowing the generation of rich telemetry directly from the code. This complements the telemetry produced by zero-code solutions.
+- **Zero-code solutions:** Ideal for quick start-ups or situations where modifying the application isn't feasible. These solutions provide detailed telemetry from libraries and the application environment, offering insights into the periphery of the application.
