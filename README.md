@@ -22,3 +22,5 @@ Instrumentation is essential for making a system observable, involving the emiss
 
 - **Code-based solutions:** These involve using official APIs and SDKs for various programming languages. They enable deep insight into the application, allowing the generation of rich telemetry directly from the code. This complements the telemetry produced by zero-code solutions.
 - **Zero-code solutions:** Ideal for quick start-ups or situations where modifying the application isn't feasible. These solutions provide detailed telemetry from libraries and the application environment, offering insights into the periphery of the application.
+
+It's important to mention that depending on the language you are using Zero-code solutions might not be available. Refer to the OpenTelemetry docs for more information.
