@@ -11,7 +11,7 @@ High-quality, ubiquitous, and portable telemetry to enable effective observabili
 OpenTelemetry is currently made up of several main components:
 
 - **Specification:** Describes the cross-language requirements and expectations for all implementations. Beyond a definition of terms, the specification defines the following: API, SDK, and Data.
-- **Collector:** It is a vendor-agnostic proxy that can receive, process, and export telemetry data.
+- **Collector:** It is a vendor-agnostic proxy that can receive, process, and export telemetry data. It can work as a side car or as a separate service within your infrastructure.
 - **Language-specific API & SDK implementations** It lets you use the OpenTelemetry API to generate telemetry data with your language of choice and export that data to a preferred backend.
 - **K8s operator:** It is an implementation of a Kubernetes Operator. The operator manages the OpenTelemetry Collector and auto-instrumentation of the workloads using OpenTelemetry.
 - **Function as a Service assets:** Platforms that enable the development and execution of cloud-based programs. OpenTelemetry's community assets allow you to instrument and gain observability into the features, functions and applications you develop on FaaS platforms.
