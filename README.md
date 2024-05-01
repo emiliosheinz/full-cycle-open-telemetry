@@ -4,6 +4,8 @@ High-quality, ubiquitous, and portable telemetry to enable effective observabili
 
 [OpenTelemetry](https://opentelemetry.io/) is a collection of APIs, SDKs, and tools. You can use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) to help you analyze your software’s performance and behavior. This facilitates seamless integration with various monitoring services, including Datadog, Grafana, Sentry, and New Relic.
 
+![OpenTelemetry architecture](./docs/images/architecture.png)
+
 ## Main Components
 
 OpenTelemetry is currently made up of several main components:
