@@ -1,0 +1,24 @@
+version: '3.0'
+
+services:
+  zipkin:
+    image: openzipkin/zipkin
+    container_name: zipkin
+    ports:
+      - 9411:9411
+
+  goapp:
+    build: ./goapp
+    container_name: goapp
+    ports:
+      - 8888:8888
+
+  nodejs:
+    build: ./nodejs
+    container_name: nodejs
+    ports:
+      - 3000:3000
+
+networks:
+  default:
+    name: my-custom-network

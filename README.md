@@ -24,3 +24,12 @@ Instrumentation is essential for making a system observable, involving the emiss
 - **Zero-code solutions:** Ideal for quick start-ups or situations where modifying the application isn't feasible. These solutions provide detailed telemetry from libraries and the application environment, offering insights into the periphery of the application.
 
 It's important to mention that depending on the language you are using Zero-code solutions might not be available. Refer to the OpenTelemetry docs for more information.
+
+## Running locally
+
+![Zipkin Dashboard](./docs/images/zipkin.png)
+
+1. Clone this repo
+1. Run `docker compose up -d`
+1. Access `http://localhost:8888/`
+1. And you'll be able to see the entire tracing of you request at `http://localhost:9411/`
